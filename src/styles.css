@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.nav-container {
+  background: salmon;
+  padding: 16px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-container {
+  border: 1px solid;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-desc {
+  border: 2px solid red;
+  width: 350px;
+  margin: 25px auto;
+  padding: 10px;
+}
